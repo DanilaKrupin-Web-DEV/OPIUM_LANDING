@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant&family=Lato:wght@700&family=Vollkorn:wght@500&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="social_block">
+        <a href=""><img class = "social_block__img" src="image/social_links_img/online.svg" alt=""></a>
+        <a href=""><img class = "social_block__img" src="image/social_links_img/wp2.svg" alt=""></a>
+        <a href=""><img class = "social_block__img" src="image/social_links_img/insta2.svg" alt=""></a>
+        <a href="tel:+7 (999) 999-99-99"><img class = "social_block__img" src="image/social_links_img/tell.svg" alt="tell"></a>
+    </div>
+
+    <div class="record_form">
+        <button class="form__close-btn" type="button">
+            <span class="form__close-line-1"></span>
+            <span class="form__close-line-2"></span>
+        </button>
+        <form action="" class="form" id="add-form">
+            <h1 class="form__title">Онлайн-запись</h1>
+            <div class="input-box input-box-first">
+                <input data-required="true" data-max-length="11" data-min-length="10"  type="number" class="input-field" placeholder="Телефон" pattern="2[0-9]{3}-[0-9]{3}">
+            </div>
+            <div class="input-box">
+                <input  data-required="true" data-min-length="1" type="text" class="input-field" placeholder="Имя">
+            </div>
+
+            <button type="submit" class="send-btn">Отправить</button>
+        </form>
+    </div>
+
+    <header class="header">     <!-- HEADER --><!-- HEADER -->    <!-- HEADER -->    <!-- HEADER -->    <!-- HEADER -->    <!-- HEADER -->       
+        
+        <div class="container">
+            <div class="header__top"><!-- HEADER__TOP-->  <!-- HEADER__TOP--> <!-- HEADER__TOP--> <!-- HEADER__TOP--> <!-- HEADER__TOP--> <!-- HEADER__TOP-->   
+            <div class="logo">
+                <a  class  ="logo__link" href="#"><img  class = "logo_img" src="image/logo.svg" alt="logo"></a>
+            </div>
+            <nav class="nav" id="menu">
+                <a class ="nav__link" href="">Программа</a>
+                <a class ="nav__link" href="">Мастера</a>
+                <a class ="nav__link" href="">Интерьеры</a>
+                <a class ="nav__link" href="">Контакты</a>
+            </nav>
+            <address class="contacts">
+                <a href="tel:+7 (999) 999-99-99" class="contacts__tel_header">+7 (999) 999-99-99</a>
+                <a class = "contacts__loc">ул. Пушкина, д.10</a>
+            </address>
+            <button class="header__burger-btn" id ="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+       
+        <div class="header__basic">  <!-- HEADER__BASIC -->  <!-- HEADER__BASIC --> <!-- HEADER__BASIC --> <!-- HEADER__BASIC --> <!-- HEADER__BASIC -->
+            <h1 class="header__basic-title">Массажный салон</h1>
+            <p class="header__basic-subtitle">Снимите напряжение в любое время в окружении самых опытных мастеров города</p>
+            <a class="header__basic-button-link" href="#"><button class="header__basic-button" type="button">Записаться онлайн</button></a>
+        </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="programs"> <!-- PROGRAMS --> <!-- PROGRAMS --><!-- PROGRAMS --><!-- PROGRAMS --><!-- PROGRAMS --><!-- PROGRAMS -->
+            
+            <div class="container">
+            <h2 class="programs__title">Наши программы</h2>
+            <div class="programs__cards"> <!-- PROGRAMS__CARDS --><!-- PROGRAMS__CARDS --><!-- PROGRAMS__CARDS --><!-- PROGRAMS__CARDS --><!-- PROGRAMS__CARDS -->
+                <div class="programs__item programs__item--first">
+                    <h4 class="programs__item_title">Лечебный массаж</h4>
+                    <p class="programs__item_sub">Программа Лечебный массаж идеально подходит для тех, кто спешит получить удовольствие.</p>
+                    <span class="programs__item-time">30 <small style="font-weight:400;">минут</small></span>
+                    <span class="programs__item-price">3000 <small style="font-weight:400;">рублей</small></span>  
+                    <a class="programs__item-more" href="">
+                        Подробнее
+                        <img class="more_image-1" src="image/programs_img/svg_programs/more_image-1.svg" alt="img">
+                        <img class="more_image-2" src="image/programs_img/svg_programs/more_image-2.svg" alt="img">
+                    </a>
+                </div>
+
+                <div class="programs__item programs__item--second">
+                    <h4 class="programs__item_title">Оздоровительный массаж</h4>
+                    <p class="programs__item_sub">Программа Лечебный массаж идеально подходит для тех, кто спешит получить удовольствие.</p>
+                    <span class="programs__item-time">30 <small style="font-weight:400;">минут</small></span>
+                    <span class="programs__item-price">3000 <small style="font-weight:400;">рублей</small></span> 
+                    <a class="programs__item-more" href="">
+                        Подробнее
+                        <img class="more_image-1" src="image/programs_img/svg_programs/more_image-1.svg" alt="img">
+                        <img class="more_image-2" src="image/programs_img/svg_programs/more_image-2.svg" alt="img">
+                    </a>
+                </div>
+
+                <div class="programs__item programs__item--three">
+                    <h4 class="programs__item_title">Массаж стоп</h4>
+                    <p class="programs__item_sub">Программа Лечебный массаж идеально подходит для тех, кто спешит получить удовольствие.</p>
+                    <span class="programs__item-time">30 <small style="font-weight:400;">минут</small></span>
+                    <span class="programs__item-price">3000 <small style="font-weight:400;">рублей</small></span> 
+                    <a class="programs__item-more" href="">
+                        Подробнее
+                        <img class="more_image-1" src="image/programs_img/svg_programs/more_image-1.svg" alt="img">
+                        <img class="more_image-2" src="image/programs_img/svg_programs/more_image-2.svg" alt="img">
+                    </a>
+                </div>
+
+                <div class="programs__item programs__item--four">
+                    <h4 class="programs__item_title">Массаж ШВЗ</h4>
+                    <p class="programs__item_sub">Программа Лечебный массаж идеально подходит для тех, кто спешит получить удовольствие.</p>
+                    <span class="programs__item-time">30 <small style="font-weight:400;">минут</small></span>
+                    <span class="programs__item-price">3000 <small style="font-weight:400;">рублей</small></span> 
+                    <a class="programs__item-more" href="">
+                        Подробнее
+                        <img class="more_image-1" src="image/programs_img/svg_programs/more_image-1.svg" alt="img">
+                        <img class="more_image-2" src="image/programs_img/svg_programs/more_image-2.svg" alt="img">
+                    </a>
+                </div>
+
+                <div class="programs__item programs__item--five">
+                    <h4 class="programs__item_title">Массаж рук</h4>
+                    <p class="programs__item_sub">Программа Лечебный массаж идеально подходит для тех, кто спешит получить удовольствие.</p>
+                    <span class="programs__item-time">30 <small style="font-weight:400;">минут</small></span>
+                    <span class="programs__item-price">3000 <small style="font-weight:400;">рублей</small></span> 
+                    <a class="programs__item-more" href="">
+                        Подробнее
+                        <img class="more_image-1" src="image/programs_img/svg_programs/more_image-1.svg" alt="img">
+                        <img class="more_image-2" src="image/programs_img/svg_programs/more_image-2.svg" alt="img">
+                    </a>
+                </div>
+
+                <div class="programs__item programs__item--six">
+                    <h4 class="programs__item_title">Какой-то ещё массаж</h4>
+                    <p class="programs__item_sub">Программа Лечебный массаж идеально подходит для тех, кто спешит получить удовольствие.</p>
+                    <span class="programs__item-time">30 <small style="font-weight:400;">минут</small></span>
+                    <span class="programs__item-price">3000 <small style="font-weight:400;">рублей</small></span> 
+                    <a class="programs__item-more" href="">
+                        Подробнее
+                        <img class="more_image-1" src="image/programs_img/svg_programs/more_image-1.svg" alt="img">
+                        <img class="more_image-2" src="image/programs_img/svg_programs/more_image-2.svg" alt="img">
+                    </a>
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <section class="masters"> <!-- MASTERS --><!-- MASTERS --><!-- MASTERS --><!-- MASTERS --><!-- MASTERS --><!-- MASTERS -->
+            <div class="container">
+                <h2 class="masters__title">Наши мастера</h2>
+                    <div class="masters__cards"> <!-- MASTERS__CARDS --><!-- MASTERS__CARDS --><!-- MASTERS__CARDS --><!-- MASTERS__CARDS -->
+                        
+                        <div class="masters__item-wrapper masters__item-wrapper-first">
+                        <div class="masters__item masters__item--first">
+                            <div class="masters__item-txt">
+                                
+                                <h6 class="masters__name">Анжела</h6>
+                                <span class="masters__desc">20 лет, 165 см</span>
+                            </div>
+                            <div class="programs__item-gradient-border"></div>
+                        </div>
+                        <div class ="masters_heart__img"></div>
+                        </div>
+                        
+                        <div class="masters__item-wrapper masters__item-wrapper-second">
+                        <div class="masters__item masters__item--second">
+                            <div class="masters__item-txt">
+                                <h6 class="masters__name">Анжела</h6>
+                                <span class="masters__desc">20 лет, 165 см</span>
+                            </div>
+                            <div class="programs__item-gradient-border"></div>
+                        </div>
+                        <div class ="masters_heart__img"></div>
+                        </div>
+                        
+                        <div class="masters__item-wrapper masters__item-wrapper-three">
+                        <div class="masters__item masters__item--three">
+                            <div class="masters__item-txt">
+                                <h6 class="masters__name">Анжела</h6>
+                                <span class="masters__desc">20 лет, 165 см</span>
+                            </div>
+                            <div class="programs__item-gradient-border"></div>
+                        </div>
+                        <div class ="masters_heart__img"></div>
+                        </div>
+                        
+                        <div class="masters__item-wrapper masters__item-wrapper-four">
+                        <div class="masters__item masters__item--four">
+                            <div class="masters__item-txt">
+                                <h6 class="masters__name">Анжела</h6>
+                                <span class="masters__desc">20 лет, 165 см</span>
+                            </div>
+                            <div class="programs__item-gradient-border"></div>
+                        </div>
+                        <div class ="masters_heart__img"></div>\
+                        </div>
+
+                        <div class="masters__item-wrapper masters__item-wrapper-five">
+                        <div class="masters__item masters__item--five">
+                            <div class="masters__item-txt">
+                                <h6 class="masters__name">Анжела</h6>
+                                <span class="masters__desc">20 лет, 165 см</span>
+                            </div>
+                            <div class="programs__item-gradient-border"></div>
+                        </div>
+                        <div class ="masters_heart__img"></div>\
+                        </div>
+
+                        <div class="masters__item-wrapper masters__item-wrapper-six">
+                        <div class="masters__item masters__item--six">
+                            <div class="masters__item-txt">
+                                <h6 class="masters__name">Анжела</h6>
+                                <span class="masters__desc">20 лет, 165 см</span>
+                            </div>
+                            <div class="programs__item-gradient-border"></div>
+                        </div>
+                        <div class ="masters_heart__img"></div>
+                        </div>
+                    </div>
+            </div>
+
+        </section>
+        <section class="reviews"> <!-- REVIEWS--><!-- REVIEWS--><!-- REVIEWS--><!-- REVIEWS--><!-- REVIEWS--><!-- REVIEWS-->
+            <div class="container">
+                <h2 class="reviews__title">Отзывы</h2>
+                <div class="reviews__container reviews__slider"> <!-- REVIEWS__SLIDER--><!-- REVIEWS__SLIDER--><!-- REVIEWS__SLIDER-->
+                    <div class="reviews__item reviews__slide" style = "height: 362px;  
+                    width: 358px;">
+                        <h6 class="reviews__user-name">Костя</h6>
+                        <span class="reviews__rating">5.0</span>
+                        <span class="reviews__user-age">36 лет</span>
+                        <p class="reviews_full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum minus explicabo eveniet, quia consectetur nobis modi tempora rerum eum veritatis laboriosam! Odio assumenda error voluptatibus aliquam iure asperiores autem, accusantium dolor tenetur delectus dolore, neque consequuntur iste quis perferendis labore aliquid. Consectetur inventore sequi delectus sunt iure deserunt ipsum est porro doloremque, numquam sint illo modi! Excepturi ipsam necessitatibus tempora laborum, quam cum praesentium. Fugit?</p>
+                    </div>
+                    <div class="reviews__item reviews__slide" style = "height: 362px;  
+                    width: 358px;">
+                        <h6 class="reviews__user-name">Никита</h6>
+                        <span class="reviews__rating">5.0</span>
+                        <span class="reviews__user-age">36 лет</span>
+                        <p class="reviews_full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum minus explicabo eveniet, quia consectetur nobis modi tempora rerum eum veritatis laboriosam! Odio assumenda error voluptatibus aliquam iure asperiores autem, accusantium dolor tenetur delectus dolore, neque consequuntur iste quis perferendis labore aliquid. Consectetur inventore sequi delectus sunt iure deserunt ipsum est porro doloremque, numquam sint illo modi! Excepturi ipsam necessitatibus tempora laborum, quam cum praesentium. Fugit?</p>
+                    </div>
+                    <div class="reviews__item reviews__slide" style = "height: 362px;  
+                    width: 358px;">
+                        <h6 class="reviews__user-name">Ваня</h6>
+                        <span class="reviews__rating">5.0</span>
+                        <span class="reviews__user-age">36 лет</span>
+                        <p class="reviews_full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum minus explicabo eveniet, quia consectetur nobis modi tempora rerum eum veritatis laboriosam! Odio assumenda error voluptatibus aliquam iure asperiores autem, accusantium dolor tenetur delectus dolore, neque consequuntur iste quis perferendis labore aliquid. Consectetur inventore sequi delectus sunt iure deserunt ipsum est porro doloremque, numquam sint illo modi! Excepturi ipsam necessitatibus tempora laborum, quam cum praesentium. Fugit?</p>
+                    </div>
+                    <div class="reviews__item reviews__slide" style = "height: 362px;  
+                    width: 358px;">
+                        <h6 class="reviews__user-name">Саша</h6>
+                        <span class="reviews__rating">5.0</span>
+                        <span class="reviews__user-age">36 лет</span>
+                        <p class="reviews_full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum minus explicabo eveniet, quia consectetur nobis modi tempora rerum eum veritatis laboriosam! Odio assumenda error voluptatibus aliquam iure asperiores autem, accusantium dolor tenetur delectus dolore, neque consequuntur iste quis perferendis labore aliquid. Consectetur inventore sequi delectus sunt iure deserunt ipsum est porro doloremque, numquam sint illo modi! Excepturi ipsam necessitatibus tempora laborum, quam cum praesentium. Fugit?</p>
+                    </div>
+                    <div class="reviews__item reviews__slide" style = "height: 362px;  
+                    width: 358px;">
+                        <h6 class="reviews__user-name">Костя</h6>
+                        <span class="reviews__rating">5.0</span>
+                        <span class="reviews__user-age">36 лет</span>
+                        <p class="reviews_full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cum minus explicabo eveniet, quia consectetur nobis modi tempora rerum eum veritatis laboriosam! Odio assumenda error voluptatibus aliquam iure asperiores autem, accusantium dolor tenetur delectus dolore, neque consequuntur iste quis perferendis labore aliquid. Consectetur inventore sequi delectus sunt iure deserunt ipsum est porro doloremque, numquam sint illo modi! Excepturi ipsam necessitatibus tempora laborum, quam cum praesentium. Fugit?</p>
+                    </div>
+                
+                </div>
+            </div>    
+        </section>
+        <section class="info-add"><!-- INFO-ADD--><!-- INFO-ADD--><!-- INFO-ADD--><!-- INFO-ADD--><!-- INFO-ADD-->
+            <div class="container">
+            <div class="info-add__group">
+                <div class="info-add__contacts">
+                <h4 class="contacts__title">Контакты</h4>
+                <address class="info-add__address">
+                    <a href="tel:+7 (999) 999-99-99" class="contacts__tel">+7 (999) 999-99-99</a>
+                    <a class = "contacts__mail" href="mailto:hello@opium.ru">hello@opium.ru</a>
+                    <a class = "contacts__location">ул. Пушкина, д.10</a>
+                    <div class="info-add__social-links">
+                        <a href="" class="info__add-link info-add__wa"><img class="info-add-img info-add__wa-img" src="image/social_links_img/wp.svg" alt=""></a>
+                        <a href="" class="info__add-link info-add__insta"><img class="info-add-img info-add__insta-img" src="image/social_links_img/insta.svg" alt=""></a>
+                        <a href="" class="info__add-link info-add__vk"><img class="info-add-img info-add__vk-img" src="image/social_links_img/vk.svg" alt=""></a>
+                        <a href="" class="info__add-link info-add__telegram"><img class="info-add-img info-add__telegram-img" src="image/social_links_img/telegram.svg" alt=""></a>
+                    </div>
+                </address>      
+                </div>
+                <!-- КАРТА--><!-- КАРТА--><!-- КАРТА--><!-- КАРТА--><!-- КАРТА--><!-- КАРТА--><!-- КАРТА-->
+            <iframe  class="maps_info" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1aa5a83bfe86fbca28cef62494bc2434336df03b8c71dd2478922a5a53808405&amp;source=constructor" width="995" height="522" frameborder="0"></iframe>
+            <!-- КАРТА--><!-- КАРТА--><!-- КАРТА--><!-- КАРТА--><!-- КАРТА--><!-- КАРТА--><!-- КАРТА-->
+            </div>
+        
+        </div>
+
+        </section>
+        
+    </main>
+    <footer class="footer"><!--  FOOTER--><!--  FOOTER--><!--  FOOTER--><!--  FOOTER--><!--  FOOTER--><!--  FOOTER-->
+        <div class="container footer__container">
+            <img class ="footer__img" src="image/18+.svg" alt=""><p class="footer__desc">Салон эротического массажа «Опиум» не оказывает услуг интимного характера</p>
+        </div>
+    </footer>
+
+    <!--  SCRIPT--><!--  SCRIPT--><!--  SCRIPT--><!--  SCRIPT--><!--  SCRIPT--><!--  SCRIPT--><!--  SCRIPT--><!--  SCRIPT-->
+    <script type="text/javascript" src="JS/jquery.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="JS/main.js"></script>
+</body>
+</html>
