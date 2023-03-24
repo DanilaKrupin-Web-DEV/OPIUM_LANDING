@@ -20,9 +20,18 @@
 
 @media (width<480px) {
     .slick-slider{
-        min-height: 410px;
+        min-height: 370px;
         width: auto;
-        margin: 0 33px;
+        margin: 0 34px;
+        overflow-y: hidden;
+    }
+}
+
+@media (width<395px) {
+    .slick-slider{
+        
+        margin: 0 10px;
+        
     }
 }
 
@@ -36,6 +45,20 @@
     margin: 0;
     padding: 0;
 }
+
+@media(max-width: 586px){
+    .slick-list{
+        padding: 0 35px;
+    }
+}
+
+@media(max-width: 480px){
+    .slick-list{
+        padding: 0px;
+    }
+}
+
+
 .slick-list:focus
 {
     outline: none;
